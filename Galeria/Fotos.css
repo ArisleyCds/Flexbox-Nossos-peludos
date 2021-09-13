@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+header {
+    background-image: url('https://www.petz.com.br/blog/wp-content/uploads/2018/08/bola-de-pelo-em-gatos-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    padding-top: 7%;
+    padding-bottom: 15%;
+}
+header h1 {
+    font-size: 800%;
+    text-align: center;
+    transform: scale3d(0.5, 1, 1.7);
+    text-decoration: underline;
+}
+.Galeria {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+hr{
+    margin-top: 4%;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+main img {
+    width: 200px;
+    margin-top: 3%;
+    margin-right: 2%;
+    border: 1px solid white;
+}
+img:nth-child(5n) {
+    margin-right: 0;
+}
+footer {
+    display: inline-block;
+}
+footer img {
+    display: inline-block;
+    width: 10%;
+}
